@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import OpenAI from 'openai'
+import {OpenAI} from 'openai'
 
 const systemPrompt = `
 You are a flashcard creator, you take in text and create multiple flashcards from it. Make sure to create exactly 10 flashcards.

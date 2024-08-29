@@ -84,9 +84,9 @@ export default function Home() {
               borderRadius: 2,
             }}>
               <Typography variant="h5" gutterBottom
-              >Basic</Typography>
+              >Basic 💡</Typography>
               <Typography variant="h6" gutterBottom
-              >$5/month</Typography>
+              >$4.99/month</Typography>
               <Typography> Access to basic flashcard features and limited storage</Typography>
               <Button variant="contained" color="primary" onClick={() => handleSubmit('basic')} sx={{ mt: 2 }}
               >Choose Basic</Button>
@@ -103,7 +103,7 @@ export default function Home() {
               <Typography variant="h5" gutterBottom
               >Pro 🚀</Typography>
               <Typography variant="h6" gutterBottom
-              >$10/month</Typography>
+              >$9.99/month</Typography>
               <Typography> Unlimited flashcards and storage, with priority support</Typography>
               <Button variant="contained" color="primary" onClick={() => handleSubmit('pro')} sx={{ mt: 2 }}
               >Choose Pro</Button>
